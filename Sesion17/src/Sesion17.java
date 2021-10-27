@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Sesion17 {
 	public static int[] NuevoVector() {
 		Scanner t = new Scanner(System.in);
-		System.out.print("\nIntroduce el temaño del vector: ");
-		int tamaño = t.nextInt();
-		int[] v = new int[tamaño];
+		System.out.print("\nIntroduce el temaÃ±o del vector: ");
+		int tamaÃ±o = t.nextInt();
+		int[] v = new int[tamaÃ±o];
 		for(int i = 0; i<v.length;i++) {
 			System.out.print("\nIntroduce un numero al vector: ");
 			int n = t.nextInt();
@@ -24,10 +24,12 @@ public class Sesion17 {
 	
 	public static int ProductoEscalar(int[] v, int[] v2) {
 		int prod = 0;
-		for(int i = 0; i<v.length;i++) {
-			for(int j = 0; j< v2.length; j++) {
-				prod += (v[i]*v2[j]);
-			}
+		int i = 0;
+		int j = 0;
+		while(i<v.length && j<v.length) {
+			prod += (v[i]*v2[j]);
+			i++;
+			j++;
 		}
 		return prod;
 	}
