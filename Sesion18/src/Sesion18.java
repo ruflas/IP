@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class Sesion18 {
-	
+	//ME FALTA POR TERMINAR LA TAREA 4
 	public static int[] NuevoVector() {
 		Scanner t = new Scanner(System.in);
-		System.out.print("\nIntroduce el temaño del vector: ");
-		int tamaño = t.nextInt();
-		int[] v = new int[tamaño];
+		System.out.print("\nIntroduce el temaÃ±o del vector: ");
+		int tamaÃ±o = t.nextInt();
+		int[] v = new int[tamaÃ±o];
 		for(int i = 0; i<v.length;i++) {
 			System.out.print("\nIntroduce un numero al vector: ");
 			int n = t.nextInt();
@@ -48,7 +48,7 @@ public class Sesion18 {
 		}
 		return w;
 	}
-	
+	//FALTA POR TERMINAR
 	public static int[] V_InversoSV(int[] v) {
 		int j = 0;
 		for(int i = v.length; i > 0; i--) {
