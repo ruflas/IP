@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Tarea1 {
+public class Sesion16 {
 	//Sesion 16 entera
 	//Tarea 3
 	public static int[] NuevoVector() {
