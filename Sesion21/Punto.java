@@ -34,9 +34,4 @@ public class Punto {
 		String s = String.format("[%.2f , %.2f]\n", getX(),getY());
 		System.out.print(s);
 	}
-	
-	public double DistanciaAlOrigen() {
-		double punto = getY() -  getX();
-		return Math.sqrt((Math.pow(punto , 2)));
-	}
 }
