@@ -3,6 +3,8 @@ public class tarea1 {
 
 	public static void main(String[] args) {
 		Scanner t = new Scanner(System.in);
+		//Tarea 1
+		
 		System.out.println("Introduce un string: ");
 		String s = t.next();
 		String[] palabra = s.split("");
@@ -16,6 +18,12 @@ public class tarea1 {
 			}
 		}
 		System.out.printf("En la palabra %s hay %d vocales.", s,cont);
+		//Tarea 2
+		
+		System.out.println("\nIntroduce un string: ");
+		String s2 = t.next();
+		if(s.equals(s2)) System.out.print("Son la misma String");
+		else System.out.print("No son la misma String.");
 		t.close();
 	}
 
