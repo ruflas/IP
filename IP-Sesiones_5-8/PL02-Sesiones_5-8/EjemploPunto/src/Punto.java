@@ -17,9 +17,9 @@ public class Punto {
 		this.y = y;
 	}
 	
-	public String imprime() {
-		String s = String.format("[%f , %f]\n", getX(),getY());
-		return s;
+	public void imprime() {
+		String s = String.format("[%.2f , %.2f]\n", getX(),getY());
+		System.out.print(s);
 	}
 	
 	public double DistanciaAlOrigen() {
