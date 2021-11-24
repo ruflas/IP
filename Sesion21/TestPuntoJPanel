@@ -1,0 +1,18 @@
+import java.awt.Component;
+
+import javax.swing.JFrame;
+public class TestPunto {
+
+	public static void main(String[] args) {
+		JFrame app = new JFrame("Pintando circulo");
+		app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		app.setBounds(0, 0, 300, 200);
+		Punto P = new Punto();
+		P.setX(40);
+		P.setY(25);
+		P.setRadio(200);
+		app.add(P);
+		app.setVisible(true);
+	}
+
+}
