@@ -1,3 +1,4 @@
+//Tenia que haber sido con la clase circulo pero añadi los metodos getRadio y sirve igual
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Color;
