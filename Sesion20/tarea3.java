@@ -28,12 +28,7 @@ public class Tarea2 {
 				mt[j][i] = m[i][j];
 			}
 		}
-		for(int i = 0; i<mt.length ; i++) {
-			System.out.print("\n");
-			for(int j = 0; j<mt[i].length; j++) {
-				System.out.print(mt[i][j]+" ");
-			}
-		}
+		ImprimeMatriz(mt);
 	}
 	
 	public static void main(String[] args) {
