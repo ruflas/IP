@@ -22,7 +22,7 @@ public class Modelo2 {
             cont++;
             if(n > 0 && n < Math.pow(cont,2)){
                 check = false;
-                break;
+                n = -1
             } 
         }
         System.out.printf("%b",check);
