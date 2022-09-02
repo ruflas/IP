@@ -23,7 +23,7 @@ public class Modelo3 {
             num = t.nextInt();
             if(num==sum_ant){
                 check = true;
-                break;
+                n = -99
             }
         }
         if(check == true) System.out.printf("El %d es igual que la suma de sus anteriores.",num);
