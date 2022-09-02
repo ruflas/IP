@@ -29,7 +29,7 @@ public class exam1ip {
 		for(int i = a; i<=b ;i++) {
 			if(i % 13 == 0) {
 				check = true;
-				break;
+				i = b+1
 			}
 		}
 		
